@@ -1,3 +1,6 @@
+
+
+
 navbar-buttom {
     animation: linear;
     color: blue($color: #000000);
@@ -8,6 +11,24 @@ div {
     text-decoration-color: white;
 }
 
-p { 
-    background-color: grey;
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
 }
+
+@media screen {
+    
+}
+
+.container {
+    border-color: lightblue 0.5px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+//302px - 425px mobile 
+//768px - 1024px tablet
+//1024px - 1440px desktop
+//1440px - > smart tvs
