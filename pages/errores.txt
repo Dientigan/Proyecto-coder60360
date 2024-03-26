@@ -163,3 +163,18 @@ posible formulario!!
   <span class="input-group-text">With textarea</span>
   <textarea class="form-control" aria-label="With textarea"></textarea>
 </div>
+
+<!-- <section>
+        <img src="./img/descarga.jfif" alt="Imagen referencial">
+        <form action="" method="post">
+            <label for="Nombre">Ingrese aqui su nombre</label>
+            <input type="text" name="Nombre completo" id="Nombre" placeholder="Coloque aqui su nombre">
+            <label for="Usuario">Ingrese su Usuario de Playstation</label>
+            <input type="text"name="Usuario de Playstation" id="Usuario" placeholder="Usuario de Playstation">
+            <label for="file">Subir archivo</label>
+            <input id="file" type="button" value="select file">
+            <label for="confirmacion">acepto terminos y condiciones</label>
+            <input id="confirmacion" type="button" value="Upload">
+            <button type="reset">Borrar</button>
+        </form>
+    </section> -->
