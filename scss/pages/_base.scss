@@ -1,0 +1,175 @@
+/*variables*/
+
+$font-p: 1.8rem;
+$font-h1: 3.0rem;
+$font-h2: 2.4rem;
+$font-h3: 2.0rem;
+
+/*reset y config basica*/
+
+ul, ol {
+    list-style: none;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+div {
+
+    border-color: lightblue;
+}
+
+p {
+  font-size: $font-p;
+    color: white  
+  }
+
+.container {
+    border-color: lightblue 0.5px;
+}
+
+.carousel-item {
+    justify-content: center;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.portada{
+  display: flex;
+  justify-content: center;
+}
+
+/* responsive settings*/
+
+@media only screen and (max-width: 990px) { 
+  body.celtra-mini .celtra-reveal-header-non-sticky {
+      position: relative;
+  }
+}
+
+@media
+(min-width: 302px) and 
+(max-width: 425px) {
+  body {
+    font-family: "Edu NSW ACT Foundation", cursive;
+  }
+}
+
+@media
+(min-width: 426x) and 
+(max-width: 768px) {
+  body {
+    font-family: "Edu NSW ACT Foundation", cursive;
+  }
+}
+
+@media
+(min-width: 769px) and 
+(max-width: 1024px) {
+  body {
+    font-family: "Edu NSW ACT Foundation", cursive;
+  }
+}
+
+@media
+(min-width: 1025px) and 
+(max-width: 1440px) {
+  body {
+    font-family: "Edu NSW ACT Foundation", cursive;
+  }
+}
+
+@media
+(width > 1025px) {
+  body {
+    font-family: "Edu NSW ACT Foundation", cursive;
+  }
+}
+
+/* fin responsive ssettings */
+
+/*navbar settings*/
+
+navbar-buttom {
+  animation: linear;
+  color: 0;
+  animation: reverse;
+
+}
+
+/* fin nevbar settings*/
+
+/*estilos texto*/
+
+
+h1 {
+font-size: $font-h1;
+  color: rgb(13, 108, 253);
+  display: flex;
+  justify-content: center;  
+}
+
+h2 { 
+  font-size: $font-h2;
+  color: rgb(13, 108, 253);
+  justify-content: center;
+}
+
+h3 {
+  font-size: $font-h2;
+  font-weight: lighter;
+  color: rgb(13, 108, 235);
+  }
+
+h5 {
+  font-size: $font-h2;
+  font-weight: lighter;
+  color: rgb(13, 108, 235);
+  justify-content: center;
+}
+
+
+div {
+  text-decoration-color: white;
+}
+
+p {
+ font-size: $font-p;
+  color: gray;
+}
+
+li {
+  color: lightblue;
+}
+
+/* fin de estilos texto*/
+
+.info_col {
+  background-color: grey;
+  color: black;
+}
+
+/* estilos contenedores*/
+
+.container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+}
+
+.caja { 
+  justify-content: center;
+}
+
+.img {
+    justify-content: center;
+    margin-bottom: 1px;
+  }
+/*fin estilos contenedores*/
+
+/*# sourceMappingURL=Style.css.map */
